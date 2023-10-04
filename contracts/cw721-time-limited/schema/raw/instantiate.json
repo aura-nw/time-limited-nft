@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "InstantiateMsg",
+  "description": "Message type for `instantiate` entry_point",
+  "type": "object",
+  "required": [
+    "admin"
+  ],
+  "properties": {
+    "admin": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

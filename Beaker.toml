@@ -1,0 +1,5 @@
+name = "time-limited-nft"
+
+[wasm]
+contract_dir = 'contracts'
+optimizer_version = '0.13.0'
