@@ -1,0 +1,1 @@
+0d22087454dd858af59917bfdaf5d08da41180885b546914f9d62f990c64425e  target/wasm32-unknown-unknown/release/cw721_time_limited.wasm

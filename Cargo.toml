@@ -8,7 +8,7 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT"
 repository = "https://github.com/aura-nw/time-limited-nft"
-rust-version = "1.72.1"
+rust-version = "1.65.0"
 
 [workspace.package.metadata.scripts]
 optimize = """docker run --rm -v "$(pwd)":/code \
@@ -18,24 +18,23 @@ optimize = """docker run --rm -v "$(pwd)":/code \
 """
 
 [workspace.dependencies]
-cosmwasm-schema = "1.1.8"
-cosmwasm-std = "1.1.8"
-cosmwasm-storage = "1.1.8"
-cw-multi-test = "0.17.0"
-cw-storage-plus = "1.0.0"
-cw-utils = "1.0.0"
-cw2 = "1.0.0"
+cosmwasm-schema = "1.2.1"
+cosmwasm-std = "1.2.1"
+cosmwasm-storage = "1.1.0"
+cw-storage-plus = "1.1.0"
+cw-utils = "1.0.1"
+cw2 = "1.1.0"
 cw721 = "0.18.0"
 cw721-base = { version = "0.18.0", features = ["library"] }
-thiserror = { version = "1.0.37" }
+thiserror = { version = "1.0.38" }
 schemars = "0.8.11"
-serde = { version = "1.0.137", default-features = false, features = ["derive"] }
-serde-json-wasm = "1.0.0"
+serde = { version = "1.0.152", default-features = false, features = ["derive"] }
 cw-ownable = "0.5.1"
+cw-multi-test = "0.17.0"
 
 [workspace.dev-dependencies]
-cosmwasm-schema = { version = "1.1.8" }
-cosmwasm-storage = { version = "1.1.8" }
+cosmwasm-schema = { version = "1.2.1" }
+cosmwasm-storage = { version = "1.2.1" }
 cw-multi-test = "0.17.0"
 
 [profile.release.package.cw721-time-limited]
